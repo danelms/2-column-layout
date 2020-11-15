@@ -104,6 +104,7 @@ nav, ul {
 footer {
     background:#cc9;
     clear:both;
+    text-align: center;
 }
 a:hover {
     color:white;
