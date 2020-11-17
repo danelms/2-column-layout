@@ -38,6 +38,7 @@ nav, ul {
 }
 
 nav {
-    padding-left: 5%;
-    width: 90%
+    margin-left: 5%;
+    width: 90%;
+    background-color: rgb(23, 115, 228);
 }
