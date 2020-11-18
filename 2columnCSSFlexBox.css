@@ -18,12 +18,10 @@ body, html{
 }
 h1 {
     background:#ddd;
-    width:60%;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 15px;
-    margin-left: 20%;
 }
 nav {
     background:#c99;
@@ -36,6 +34,7 @@ nav, ul {
     margin: 0;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-inline-start: 0;
 }
 #ul1 {
     display: flex;
@@ -58,48 +57,39 @@ nav, ul {
     border-radius: 10px;
     border: darkblue;
     border-style: solid;
+    width:30%;
+    margin:1%;
+    padding:0.5%;
+    height:180px;
+}
+@media screen and (max-width) {
+    .column {
+        width: 100%;
+    }
 }
 #column1 {
     background:rgb(109, 207, 109);
-    width:30%;
-    margin:1%;
-    padding:0.5%;
-    height:180px;
+
 }
 #column2 {
     background:rgb(171, 101, 185);
-    width:30%;
-    margin:1%;
-    padding:0.5%;
-    height:180px;
+
 }
 #column3 {
     background:rgb(145, 114, 255);
-    width:30%;
-    margin:1%;
-    padding:0.5%;
-    height:180px;
+
 }
 #column4 {
     background:cyan;
-    width: 30%;
-    margin: 1%;
-    padding: 0.5%;
-    height: 180px;
+
 }
 #column5 {
     background:rgb(216, 203, 24);
-    width: 30%;
-    margin: 1%;
-    padding: 0.5%;
-    height: 180px;
+
 }
 #column6 {
     background:rgb(255, 33, 33);
-    width: 30%;
-    margin: 1%;
-    padding: 0.5%;
-    height: 180px;
+
 }
 footer {
     background:#cc9;
