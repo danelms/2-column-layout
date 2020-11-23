@@ -4,9 +4,10 @@ body, html{
     color:#000;
     background:#a7a09a;
 }
-#header {
+header {
     display: flex;
-    flex-direction: row;
+    width: 100%;
+    margin-left: 5%;
 }
 #wrap {
     width:95%;
@@ -17,6 +18,7 @@ body, html{
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
+    width: 90%;
     background:#ddd;
     text-align: center;
     padding-top: 15px;
@@ -29,12 +31,17 @@ nav {
     border-style: solid;
     border-radius: 10px;
 }
-nav, ul {
+nav .ul {
     list-style-type: none;
     margin: 0;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-inline-start: 0;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    padding-inline-start: 0px;
 }
 #ul1 {
     display: flex;
@@ -62,11 +69,34 @@ nav, ul {
     padding:0.5%;
     height:180px;
 }
-@media screen and (max-width) {
+
+
+@media only screen and (max-width: 800px) {
+    
     .column {
         width: 100%;
+        padding: 0%;
+    }
+    
+    .columns, nav {
+        flex-direction: column;
+        width: 95%;
+        margin: 0px;
+        margin-right: 0px;
+    }
+    
+    header {
+        display: none;
+    }
+    
+    #wrap {
+        width: 100%;
+        padding: 4px;
+        border-radius: 0px;
     }
 }
+
+
 #column1 {
     background:rgb(109, 207, 109);
 
