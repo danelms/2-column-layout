@@ -1,6 +1,7 @@
 body {
     background-color: rgb(63, 141, 236);
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 header {
@@ -10,7 +11,7 @@ header {
 
 p {
     padding-left: 5%;
-    color: white;
+    width: 90%;
 }
 
 li a {
@@ -29,7 +30,7 @@ li a:hover {
     background-color: darkblue;
 }
 
-nav, ul {
+nav ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -63,4 +64,22 @@ nav {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.assignmentlinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.assnav a {
+    width: 200px;
+}
+
+.assnav {
+    width: 90%;
+    margin-left: 5%;
 }
