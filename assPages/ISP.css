@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(63, 141, 236);
+}
+#wrap {
+    width: 74%;
+    background-color:white;
+    position: fixed;
+    left: 10%;
+    top: 3%;
+    padding: 3%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
